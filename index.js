@@ -26,9 +26,11 @@ if (isFirstHit)
       console.log(hitDamage[i]);
     }
 let bam = firstHit[hitCheck];
-console.log('WHACK!' + ' Ouch! ' + (hitCheck) + " " + (bam) + '!');
+console.log('WHACK! ' +  (hitCheck) +"!" + " " + (bam) + "!" + ' Ouch!!');
+console.log("Critical Blow!")
 } else {
     console.log('AHAHAAHAA, You Missed!');
+    console.log("Try Again!")
 }
 
 }
